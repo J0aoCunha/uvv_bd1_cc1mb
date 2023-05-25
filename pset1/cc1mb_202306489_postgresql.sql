@@ -26,7 +26,7 @@ CREATE DATABASE uvv
 --Cria o schema e da authorizaçao para o usuario
 CREATE SCHEMA lojas authorization JOAO;
 
---Altera o schema padrão do postgres para o schema que foi criado
+--altera o schema padrão do postgres para o schema que foi criado
 ALTER USER JOAO
 SET SEARCH_PATH TO lojas, "$user", public;
 
@@ -230,6 +230,9 @@ NOT DEFERRABLE;
 --criaçao das constraint das colunas do Banco de dados
 ALTER TABLE pedidos
 ADD CONSTRAINT check_status CHECK (status IN ('CANCELADO', 'COMPLETO', 'ABERTO', 'PAGO', 'REEMBOLSADO', 'ENVIADO'));
+
+ALTER TABLE envios
+ADD CONSTRAINT check_status CHECK (status IN ('CRIADO', 'ENVIADO', 'TRANSITO', 'ENTREGUE'));
 
 ALTER TABLE pedidos_itens
 ADD CONSTRAINT check_quantidade CHECK (quantidade >= 0);
