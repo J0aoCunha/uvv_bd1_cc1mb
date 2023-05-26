@@ -1,7 +1,6 @@
 --Apaga o banco de dados se ele existir 
 DROP DATABASE IF EXISTS UVV;
 
-
 --Apaga os usuario se ele existir 
 DROP USER IF EXISTS JOAO;
 
