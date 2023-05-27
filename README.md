@@ -11,4 +11,4 @@
 ### Usando o VScode fiz algumas modificações que foram pedidas pelo professor Abrantes, como a criação de algumas constraint, troca do Schema do banco de dados, a conexão do Schema com o banco de dados e algumas outras alterações.
 ### Usando a máquina virtual que o professor Abrantes disponibilizou para o desenvolvimento do trabalho testei diversas vezes esse script global, para rodar sem erros e sem bugs.
 
-< src="">
+![](https://github.com/J0aoCunha/uvv_bd1_cc1mb/blob/main/pset1/diagrama.pdf)
