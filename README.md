@@ -1,5 +1,6 @@
 ## Professor: Abrantes Araújo Silva Filho
-## Banco de Dados I, PSET 1
+## Banco de Dados I
+## PSET1
 
 ### Nome: João Victor da Silva Cunha
 ### Matrícula: 202306489
@@ -11,4 +12,6 @@
 ### Usando o VScode fiz algumas modificações que foram pedidas pelo professor Abrantes, como a criação de algumas constraint, troca do Schema do banco de dados, a conexão do Schema com o banco de dados e algumas outras alterações.
 ### Usando a máquina virtual que o professor Abrantes disponibilizou para o desenvolvimento do trabalho testei diversas vezes esse script global, para rodar sem erros e sem bugs.
 
-![](https://github.com/J0aoCunha/uvv_bd1_cc1mb/blob/main/pset1/diagrama.pdf)
+### Segue abaixo o diagrama do Banco de dados:
+
+![image](https://github.com/J0aoCunha/uvv_bd1_cc1mb/assets/124682784/84f65191-f10d-49e0-9048-55d717eadf14)
