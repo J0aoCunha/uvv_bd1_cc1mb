@@ -1,12 +1,13 @@
 --Apaga o banco de dados se ele existir 
-DROP DATABASE IF EXISTS UVV;
+DROP DATABASE IF EXISTS uvv;
+
 
 --Apaga os usuario se ele existir 
-DROP USER IF EXISTS JOAO;
+DROP USER IF EXISTS joao;
 
 --Cria o usuario e senha que sera o dono do banco de dados e do schema
-CREATE USER JOAO
-WITH PASSWORD '123';
+CREATE USER joao
+       WITH PASSWORD '123';
 
 --Cria o banco de dados uvv
 CREATE DATABASE uvv
@@ -23,10 +24,10 @@ CREATE DATABASE uvv
 
 
 --Cria o schema e da authorizaçao para o usuario
-CREATE SCHEMA lojas authorization JOAO;
+CREATE SCHEMA lojas authorization joao;
 
 --altera o schema padrão do postgres para o schema que foi criado
-ALTER USER JOAO
+ALTER USER joao
 SET SEARCH_PATH TO lojas, "$user", public;
 
 
